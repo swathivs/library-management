@@ -1,38 +1,62 @@
-.App {
+.sideLib {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.libImage{
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: -40px;
+  height: auto;
+  width: 900px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.lib{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  padding: 30px;
+  margin-top: -60px;
+}
+.tab{
+  margin-left: 250px;
+  padding: 30px;
+}
+table,th,td{
+  border: 1px solid black;
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.bookh{
+  margin-left: 280px;
+  margin-top: -50px;
+  margin-bottom: -20px;
+}
+.abt{
+  margin-top: 50px;
+  margin-left: 250px;
+  padding: 30px;
+  /* text-align: center; */
+}
+.add-user{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
+  margin-left: 380px;
+  width: 700px;
+  padding: 30px;
+  gap: 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-user{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 380px;
+  width: 700px;
+  padding: 30px;
 }
